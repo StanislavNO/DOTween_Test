@@ -3,10 +3,10 @@ using DG.Tweening;
 
 namespace Assets.Scripts
 {
-    public class DOColor : MonoBehaviour
+    public class ColorChanger : MonoBehaviour
     {
         [SerializeField] private Material material;
-        [SerializeField] Color _startColor;
+        [SerializeField] private Color _startColor;
 
         private void Awake()
         {

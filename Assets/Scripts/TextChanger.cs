@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
-    public class DOText : MonoBehaviour
+    public class TextChanger : MonoBehaviour
     {
         [SerializeField] private Text _text;
 

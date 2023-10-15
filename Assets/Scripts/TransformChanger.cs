@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    public class DOOrganizer : MonoBehaviour
+    public class TransformChanger : MonoBehaviour
     {
         [SerializeField][Range(0, 10)] private float _path;
         [SerializeField] private float _speed;
@@ -13,7 +13,7 @@ namespace Assets.Scripts
 
         private Sequence _sequence;
 
-        void Start()
+        private void Start()
         {
             _startPositionZ = transform.position.z;
             _startScale = transform.localScale;
